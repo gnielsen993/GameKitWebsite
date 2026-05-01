@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Updates — GameDrawer</title>
+  <meta name="description" content="Release notes for GameDrawer. What shipped, when, and why." />
+  <meta name="theme-color" content="#F2E8D0" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1A1A1D" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" href="assets/images/icon-1024.png" />
+  <link rel="apple-touch-icon" href="assets/images/icon-1024.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/config.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div class="container">
+
+    <header class="nav">
+      <a class="brand" href="index.html" aria-label="GameDrawer home">
+        <img class="brand-logo" src="assets/images/icon-1024.png" alt="" aria-hidden="true" />
+        <span class="brand-name" data-cfg="displayName">GameDrawer</span>
+        <span class="brand-meta">Vol. I &middot; v<span data-cfg="appVersion">1.0</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="updates.html" aria-current="page">Updates</a>
+        <a class="nav-link" href="press.html">Press</a>
+        <a class="nav-link" href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <main id="main-content" class="doc">
+      <p class="eyebrow">Release Log &middot; v<span data-cfg="appVersion">1.0</span></p>
+      <h1>Updates</h1>
+      <p class="lede">A running log of what shipped, when, and why. Updated alongside each App Store release.</p>
+
+      <ul class="updates-list">
+        <li>
+          <span class="ver">v1.0 &middot; Coming soon</span>
+          <strong>GameDrawer opens. Minesweeper is the first cabinet.</strong>
+          <p>The opening volume — a clean drawer of classic logic games. v1.0 ships with Minesweeper alone, properly tuned, before adding more games as separate cabinets in the same drawer. Local-first by default, with optional Sign in with Apple iCloud sync layered on top.</p>
+          <p><strong>Minesweeper</strong> &middot; Three difficulties (Easy 9&times;9 with 10 mines, Medium 16&times;16 with 40, Hard 16&times;30 with 99). First-tap safety guaranteed. Flood-fill auto-reveal for empty cells. Tap to reveal, long-press to flag. A clean win and loss state.</p>
+          <p><strong>Stats persistence</strong> &middot; Best times per difficulty, total games played, win percentage, and a full record table. Stored locally via <code>SwiftData</code> so they survive restarts and OS updates.</p>
+          <p><strong>Themes</strong> &middot; 34 presets across six DesignKit families (Classic, Sweet, Bright, Soft, Moody, Loud) plus a custom palette editor. The default identity is "Chrome Diner" — cream, teal, diner red, and brushed gunmetal.</p>
+          <p><strong>Sync &amp; data</strong> &middot; Optional iCloud sync via Sign in with Apple in the <code>iCloud.com.lauterstar.gamekit</code> private container. JSON stats export and import with a versioned schema. Sync is off by default.</p>
+          <p><strong>Haptics &amp; sound</strong> &middot; Polished feedback on flag, reveal, win, and loss. Fully toggleable in Settings.</p>
+          <p><strong>Privacy &amp; performance</strong> &middot; Apple privacy manifest declares no collected data and no tracking. Cold-start under one second. No popups. No required onboarding.</p>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div>&copy; <span data-cfg="copyrightYear">2026</span> <span data-cfg="copyrightHolder">Lauterstar</span></div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>

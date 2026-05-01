@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>GameDrawer — Classic logic games. No ads. No noise. Just play.</title>
+  <meta name="description" content="A local-first iOS drawer of classic logic games. Minesweeper now, more on the way. No ads, no accounts, no tracking — fully theme-customizable." />
+
+  <link rel="canonical" href="/" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta name="theme-color" content="#F2E8D0" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1A1A1D" media="(prefers-color-scheme: dark)" />
+
+  <meta property="og:site_name" content="GameDrawer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="GameDrawer — Classic logic games. No ads. No noise. Just play." />
+  <meta property="og:description" content="A local-first iOS drawer of classic logic games. Minesweeper now, more on the way." />
+  <meta property="og:image" content="assets/images/icon-1024.png" />
+  <meta property="og:image:alt" content="GameDrawer app icon" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="GameDrawer" />
+  <meta name="twitter:description" content="Classic logic games. No ads. No noise. Just play." />
+  <meta name="twitter:image" content="assets/images/icon-1024.png" />
+
+  <link rel="icon" href="assets/images/icon-1024.png" />
+  <link rel="apple-touch-icon" href="assets/images/icon-1024.png" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/config.js"></script>
+  <script defer src="assets/app.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Lauterstar",
+        "url": "/"
+      },
+      {
+        "@type": "MobileApplication",
+        "name": "GameDrawer",
+        "operatingSystem": "iOS 17+",
+        "applicationCategory": "GameApplication",
+        "description": "Local-first drawer of classic logic games. Minesweeper at v1.0, with more games on the way. No ads, no accounts, no tracking.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="container">
+
+    <header class="nav">
+      <a class="brand" href="index.html" aria-label="GameDrawer home">
+        <img class="brand-logo" src="assets/images/icon-1024.png" alt="" aria-hidden="true" />
+        <span class="brand-name" data-cfg="displayName">GameDrawer</span>
+        <span class="brand-meta">Vol. I &middot; v<span data-cfg="appVersion">1.0</span></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a class="nav-link" href="index.html" aria-current="page">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="updates.html">Updates</a>
+        <a class="nav-link" href="press.html">Press</a>
+        <a class="nav-link" href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <main id="main-content" class="hero">
+
+      <section>
+        <div class="hero-split">
+          <div class="hero-text">
+            <h1 class="h1">
+              Classic logic games.<br />
+              No ads.<br />Just play.
+            </h1>
+
+            <p class="sub">
+              GameDrawer is a calm drawer of classic logic games for iPhone. Local-first, no accounts, no tracking, no fake currency — every game adapts to the theme you pick.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn appstore" href="#" target="_blank" rel="noopener" data-cfg="appStoreUrl" aria-label="Download GameDrawer on the App Store">
+                <img src="assets/images/app-store-badge.svg" alt="Download on the App Store" />
+                <span class="visually-hidden">Download on the App Store</span>
+              </a>
+              <a class="btn ghost" href="#features">What's inside</a>
+            </div>
+
+            <p class="small">
+              Questions? Email
+              <a data-cfg="supportEmail" href="mailto:">support</a>.
+            </p>
+          </div>
+
+          <div class="hero-phone">
+            <div class="phone-frame placeholder" role="img" aria-label="Minesweeper preview placeholder">
+              Minesweeper<br />preview
+            </div>
+          </div>
+        </div>
+
+        <div id="features" class="grid" role="region" aria-labelledby="features-heading">
+          <h2 id="features-heading" class="visually-hidden">App Features</h2>
+
+          <article class="feature">
+            <p class="feature-num">01 / Minesweeper</p>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="M9 9h.01M15 9h.01M9 15h.01M15 15h.01" />
+              </svg>
+            </span>
+            <h3>Minesweeper, properly tuned.</h3>
+            <p>Three difficulties: Easy 9&times;9 (10 mines), Medium 16&times;16 (40), Hard 16&times;30 (99). First-tap safety is guaranteed. Flood-fill auto-reveal for empty cells.</p>
+          </article>
+
+          <article class="feature">
+            <p class="feature-num">02 / Local-first</p>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="10" rx="2" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+              </svg>
+            </span>
+            <h3>Your stats stay yours.</h3>
+            <p>Best times, win percentages, and game records live on-device via SwiftData. Survives restarts, fresh installs, and OS updates. No servers we own.</p>
+          </article>
+
+          <article class="feature">
+            <p class="feature-num">03 / No ads, ever</p>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M5 5l14 14" />
+              </svg>
+            </span>
+            <h3>No coins. No energy. No popups.</h3>
+            <p>Permanent. No banner ads, no forced video ads, no fake currency, no subscription pestering, no required onboarding. Open the app, play.</p>
+          </article>
+
+          <article class="feature">
+            <p class="feature-num">04 / Themes</p>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="13.5" cy="6.5" r="1.5" />
+                <circle cx="17.5" cy="10.5" r="1.5" />
+                <circle cx="8.5" cy="7.5" r="1.5" />
+                <circle cx="6.5" cy="12.5" r="1.5" />
+                <path d="M12 2a10 10 0 1 0 0 20c1 0 2-1 2-2v-1a2 2 0 0 1 2-2h2a4 4 0 0 0 4-4 10 10 0 0 0-10-11z" />
+              </svg>
+            </span>
+            <h3>34 theme presets.</h3>
+            <p>Six DesignKit families (Classic, Sweet, Bright, Soft, Moody, Loud) plus a custom palette editor. Every game adapts to the look you pick.</p>
+          </article>
+
+          <article class="feature">
+            <p class="feature-num">05 / Stats that stick</p>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 17l6-6 4 4 8-8" />
+                <path d="M14 7h7v7" />
+              </svg>
+            </span>
+            <h3>Best times, win %, games played.</h3>
+            <p>Per-difficulty bests, lifetime totals, and a full record table. Export it all as JSON, re-import on a new device, or never look at it again.</p>
+          </article>
+
+          <article class="feature">
+            <p class="feature-num">06 / Optional iCloud</p>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 18a5 5 0 1 1 .42-9.98A6 6 0 0 1 19 11a4 4 0 0 1-.5 7.97" />
+              </svg>
+            </span>
+            <h3>Sync only if you ask.</h3>
+            <p>Sign in with Apple unlocks CloudKit sync across your devices. Off by default. Sign out and your records stay on the device.</p>
+          </article>
+        </div>
+
+        <blockquote class="pullquote">
+          &ldquo;Most clones are cluttered with ads and fake coins. GameDrawer is the opposite.&rdquo;
+          <cite class="pullquote-cite">&mdash; Design philosophy, internal</cite>
+        </blockquote>
+
+      </section>
+
+      <div class="screenshot-carousel" aria-label="App screenshots">
+        <button class="carousel-btn" data-dir="prev" type="button" aria-label="Previous screenshot">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M15 6l-6 6 6 6" />
+          </svg>
+        </button>
+        <button class="carousel-btn" data-dir="next" type="button" aria-label="Next screenshot">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9 6l6 6-6 6" />
+          </svg>
+        </button>
+        <div class="carousel-track">
+          <div class="shot-placeholder">Minesweeper<br />Easy</div>
+          <div class="shot-placeholder">Flag<br />mode</div>
+          <div class="shot-placeholder">Win<br />screen</div>
+          <div class="shot-placeholder">Stats</div>
+          <div class="shot-placeholder">Theme<br />picker</div>
+          <div class="shot-placeholder">Settings</div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div>
+        &copy; <span data-cfg="copyrightYear">2026</span>
+        <span data-cfg="copyrightHolder">Lauterstar</span>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>

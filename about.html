@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>About GameDrawer — A Calm Drawer of Classic Logic Games</title>
+  <meta name="description" content="GameDrawer is a local-first iOS drawer of classic logic games — Minesweeper now, more on the way. No ads, no accounts, no tracking. Built on the shared Lauterstar DesignKit." />
+
+  <link rel="canonical" href="/about.html" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta name="theme-color" content="#F2E8D0" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1A1A1D" media="(prefers-color-scheme: dark)" />
+
+  <meta property="og:site_name" content="GameDrawer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="About GameDrawer — A Calm Drawer of Classic Logic Games" />
+  <meta property="og:description" content="Why GameDrawer exists, what's in v1.0, and what's on the way. Local-first iOS, no ads, no tracking." />
+  <meta property="og:image" content="assets/images/icon-1024.png" />
+  <meta property="og:image:alt" content="GameDrawer app icon" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About GameDrawer" />
+  <meta name="twitter:description" content="A calm drawer of classic logic games. Local-first, no ads, no tracking." />
+  <meta name="twitter:image" content="assets/images/icon-1024.png" />
+
+  <link rel="icon" href="assets/images/icon-1024.png" />
+  <link rel="apple-touch-icon" href="assets/images/icon-1024.png" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/config.js"></script>
+  <script defer src="assets/app.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About GameDrawer",
+    "url": "/about.html",
+    "primaryImageOfPage": "assets/images/icon-1024.png",
+    "mainEntity": {
+      "@type": "MobileApplication",
+      "name": "GameDrawer",
+      "operatingSystem": "iOS 17+",
+      "applicationCategory": "GameApplication",
+      "description": "Local-first drawer of classic logic games for iPhone. Minesweeper at v1.0, with more games on the way.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "featureList": [
+        "Minesweeper with three difficulties and first-tap safety",
+        "Tap-to-reveal, long-press to flag",
+        "Stats persistence via SwiftData",
+        "34-preset theme catalog across six DesignKit families",
+        "Custom palette editor",
+        "JSON stats export and import",
+        "Optional CloudKit sync via Sign in with Apple",
+        "Haptics and sound effects, fully toggleable",
+        "Zero ads, zero tracking, zero accounts required"
+      ]
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is GameDrawer really free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Version 1.0 is free with no in-app purchases, no subscriptions, and no ads. Future paid options would be one-time unlocks or theme packs — never ads or coins."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will you add ads later?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. No ads, no fake currency, no energy systems, and no aggressive subscriptions. That's a permanent constraint, not a launch promise."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need an account?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. GameDrawer is local-first by default — every record lives on-device via SwiftData. Sign in with Apple is optional and only enables CloudKit sync across your own devices."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens to my stats if I delete the app?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Local-only stats are erased with the app. If you exported a JSON backup or used optional iCloud sync, you can restore on reinstall. There is no server we operate that would still have your data."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="container">
+
+    <header class="nav">
+      <a class="brand" href="index.html" aria-label="GameDrawer home">
+        <img class="brand-logo" src="assets/images/icon-1024.png" alt="" aria-hidden="true" />
+        <span class="brand-name" data-cfg="displayName">GameDrawer</span>
+        <span class="brand-meta">Vol. I &middot; v<span data-cfg="appVersion">1.0</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html" aria-current="page">About</a>
+        <a class="nav-link" href="updates.html">Updates</a>
+        <a class="nav-link" href="press.html">Press</a>
+        <a class="nav-link" href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <main id="main-content" class="doc">
+      <p class="eyebrow">About &middot; GameDrawer &middot; Vol. I</p>
+      <h1>A calm drawer of classic games.</h1>
+      <p class="lede">GameDrawer is a local-first iPhone home for the logic games you grew up with. It exists because most of the modern clones have been ruined — and the original games deserved better than that.</p>
+
+      <p>Open Solitaire, Sudoku, Minesweeper, or a Merge clone on the App Store today and you'll usually meet the same wall: a banner ad, a forced video ad after every level, fake coins to spend, energy meters that lock you out, paywalls in front of basic features, and a tutorial that won't let you skip. GameDrawer inverts every one of those decisions. The first launch drops you straight into a game. Your stats live on your device. There is no account to make, no email to verify, no upsell to dismiss.</p>
+
+      <p><a class="btn" href="#" target="_blank" rel="noopener" data-cfg="appStoreUrl">Get GameDrawer on the App Store</a></p>
+
+      <h2>Why GameDrawer exists</h2>
+      <p>The honest reason: classic logic games are some of the best mobile-sized entertainment ever shipped, and almost every modern version of them has been hollowed out by ad networks. The mechanics are still good. The boards are still beautiful. What got broken is everything wrapped around them.</p>
+
+      <p>GameDrawer was built to remove every one of those failures. Tap to play. No popups. No paywalls. No tracking. No required network connection. A clean cabinet of games that opens fast, runs offline, and lets the actual game be the thing you remember.</p>
+
+      <h2>What's in v1.0</h2>
+
+      <h3>Minesweeper</h3>
+      <p>The full classic, properly tuned. Three difficulties — Easy 9&times;9 with 10 mines, Medium 16&times;16 with 40, Hard 16&times;30 with 99. <strong>First-tap safety</strong> is guaranteed: your first reveal will never be on a mine. Empty cells flood-fill correctly. Tap to reveal, long-press to flag. A clean win and loss state, both with haptics that you can turn off.</p>
+
+      <h3>Stats persistence</h3>
+      <p>Best times per difficulty, total games played, win percentage, and a full record table. Stored locally via <code>SwiftData</code> so they survive restarts, fresh installs (with backup), and OS updates. JSON export ships in v1.0, with a versioned schema so the file remains readable as the model evolves.</p>
+
+      <h3>34-preset theme catalog</h3>
+      <p>Every game adapts to the theme you pick. Six DesignKit families — <strong>Classic</strong>, <strong>Sweet</strong>, <strong>Bright</strong>, <strong>Soft</strong>, <strong>Moody</strong>, <strong>Loud</strong> — plus a custom palette editor for picking your own. The default is "Chrome Diner" (cream + teal + diner red + brushed gunmetal), the same palette used on this site.</p>
+
+      <h3>Optional iCloud sync</h3>
+      <p>Sign in with Apple unlocks CloudKit sync across your devices via the <code>iCloud.com.lauterstar.gamekit</code> private container. It is off by default. Sign out and your records stay on the device. There is no Lauterstar-owned server in the picture either way — Apple sees encrypted blobs, we see nothing.</p>
+
+      <h3>Haptics and sound</h3>
+      <p>Polished feedback on flag, reveal, win, and loss. Fully toggleable in Settings. Quiet by default on Silent.</p>
+
+      <h2>On the way</h2>
+      <p>GameDrawer ships with one game and adds more as separate cabinets in the same drawer. The roadmap, in rough order of priority: <strong>Solitaire</strong>, <strong>Sudoku</strong>, <strong>Merge</strong>, <strong>Word Grid</strong>, <strong>Nonogram</strong>, <strong>Flow</strong>, <strong>Pattern Memory</strong>, <strong>Chess puzzles</strong>. Each one ships when it can stand on its own — no half-finished cabinets in the drawer.</p>
+
+      <h2>Who GameDrawer is for</h2>
+      <ul>
+        <li><strong>People who used to play Minesweeper or Solitaire and stopped</strong> because the modern versions are unbearable.</li>
+        <li><strong>People who care about a clean look.</strong> 34 themes, custom palettes, the same Balanced-Luxury identity used across the Lauterstar suite.</li>
+        <li><strong>Privacy-minded players.</strong> No accounts, no analytics, no servers we own. Optional iCloud is end-to-end through Apple.</li>
+        <li><strong>iPhone owners on iOS 17 or later</strong> who want games that respect their time and their battery.</li>
+      </ul>
+
+      <p>GameDrawer is probably <em>not</em> for: people who want infinite-scroll match-3 dopamine, social leaderboards, daily-streak guilt, or live-service game economies.</p>
+
+      <h2>The privacy posture</h2>
+      <p>GameDrawer collects no analytics on your gameplay. There are no third-party SDKs reporting back to ad networks. There is no server we operate that holds your records. The optional iCloud sync uses Apple's CloudKit running under your own Apple ID. The Apple privacy manifest declares no collected data and no tracking. Read the full <a href="privacy.html">Privacy Policy</a> for specifics.</p>
+
+      <h2>Part of the Lauterstar suite</h2>
+      <p>GameDrawer is one app in a broader local-first ecosystem powered by <strong>DesignKit</strong> — a shared Swift Package of tokens, components, themes, and chart styles. Sibling apps (<strong>Stack</strong> for gym tracking, <strong>HabitTracker</strong> for binary habits, <strong>PantryPlanner</strong> for forecasting and meal planning) share the same Balanced Luxury identity, the same accessibility floor, and the same privacy posture. Build one design language; use it everywhere.</p>
+
+      <h2>Frequently asked questions</h2>
+
+      <h3>Is GameDrawer really free?</h3>
+      <p>Yes. Version 1.0 is free with no in-app purchases, no subscriptions, and no ads. If a paid option ever lands, it would be a one-time unlock for the full game suite, paid theme packs, or a tip jar — <em>never</em> ads, coins, or aggressive subscriptions.</p>
+
+      <h3>Will you add ads later?</h3>
+      <p>No. That's a permanent constraint, not a launch promise.</p>
+
+      <h3>Do I need an account?</h3>
+      <p>No. GameDrawer is local-first by default. Sign in with Apple is optional and only enables CloudKit sync across your own devices.</p>
+
+      <h3>What happens to my stats if I delete the app?</h3>
+      <p>Local-only stats are erased with the app, the same as any other iOS app. If you exported a JSON backup or used optional iCloud sync, you can restore on reinstall. There is no server we operate that would still have your data.</p>
+
+      <h3>What devices does GameDrawer run on?</h3>
+      <p>iPhone running iOS 17 or later. iPad layout will follow.</p>
+
+      <h3>How do I get help?</h3>
+      <p>Email <a data-cfg="supportEmail" href="mailto:">support</a>. We read everything. If you're reporting a bug, mention your iOS version and what you were doing when it happened.</p>
+
+      <p style="margin-top: var(--space-xl);">
+        <a class="btn" href="#" target="_blank" rel="noopener" data-cfg="appStoreUrl">Get GameDrawer on the App Store</a>
+        <a class="btn ghost" href="updates.html">See what shipped &rarr;</a>
+      </p>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div>&copy; <span data-cfg="copyrightYear">2026</span> <span data-cfg="copyrightHolder">Lauterstar</span></div>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>
