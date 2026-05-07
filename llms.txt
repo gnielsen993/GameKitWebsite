@@ -1,0 +1,33 @@
+# GameDrawer
+
+A local-first iOS drawer of classic logic games. Minesweeper at v1.0, with more games on the way. No ads, no accounts, no tracking — fully theme-customizable.
+
+## Product
+- iOS app: launching soon (App Store URL pending)
+- Free to download. No in-app purchases, no subscriptions, no fake currency.
+- Built and operated by Lauterstar (https://lauterstar.com).
+- Part of the Lauterstar ecosystem alongside DesignKit, HabitTracker, Stack, and PantryPlanner.
+
+## Key Pages
+- Home: https://gamedrawer.lauterstar.com/
+- About: https://gamedrawer.lauterstar.com/about.html
+- Updates / Release notes: https://gamedrawer.lauterstar.com/updates.html
+- Press kit: https://gamedrawer.lauterstar.com/press.html
+- Support: https://gamedrawer.lauterstar.com/support.html
+- Privacy Policy: https://gamedrawer.lauterstar.com/privacy.html
+- Terms of Service: https://gamedrawer.lauterstar.com/terms.html
+
+## What GameDrawer does
+- Minesweeper: three difficulties (Easy 9x9 / Medium 16x16 / Hard 16x30), first-tap safety, flood-fill auto-reveal.
+- Local-first stats: best times, win percentages, and game records stored on-device via SwiftData.
+- No ads, ever: no banner ads, no forced video ads, no fake currency, no subscription pestering.
+- 34 theme presets across six DesignKit families (Classic, Sweet, Bright, Soft, Moody, Loud) plus a custom palette editor.
+- Stats: per-difficulty bests, lifetime totals, full record table, JSON export and re-import.
+- Optional iCloud sync via Sign in with Apple — off by default.
+
+## Audience
+Players who want classic logic games without ads, fake coins, energy meters, or required onboarding. People who care about quiet, theme-customizable play.
+
+## Contact
+- Support email: support@lauterstar.com
+- Parent company: Lauterstar (https://lauterstar.com)
