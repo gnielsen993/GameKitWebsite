@@ -1,6 +1,6 @@
 # GameDrawer
 
-A local-first iOS drawer of classic logic games. Minesweeper at v1.0, with more games on the way. No ads, no accounts, no tracking — fully theme-customizable.
+A local-first iOS drawer of classic logic games. Minesweeper at v1.0, with more games on the way. No ads, no accounts, no tracking - fully theme-customizable.
 
 ## Product
 - iOS app: launching soon (App Store URL pending)
@@ -23,7 +23,7 @@ A local-first iOS drawer of classic logic games. Minesweeper at v1.0, with more 
 - No ads, ever: no banner ads, no forced video ads, no fake currency, no subscription pestering.
 - 34 theme presets across six DesignKit families (Classic, Sweet, Bright, Soft, Moody, Loud) plus a custom palette editor.
 - Stats: per-difficulty bests, lifetime totals, full record table, JSON export and re-import.
-- Optional iCloud sync via Sign in with Apple — off by default.
+- Optional iCloud sync via Sign in with Apple - off by default.
 
 ## Audience
 Players who want classic logic games without ads, fake coins, energy meters, or required onboarding. People who care about quiet, theme-customizable play.

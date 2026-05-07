@@ -11,7 +11,7 @@
 }
 
 :root {
-  /* Light (Chrome Diner — cream + teal) */
+  /* Light (Chrome Diner - cream + teal) */
   --bg: #F2E8D0;
   --surface: #FFFFFF;
   --surface-2: #EADFC4;
@@ -21,7 +21,7 @@
   --text-dim: #5A5560;
   --text-mute: #8A8590;
 
-  /* Accents — translated from GameDrawer's Chrome Diner palette */
+  /* Accents - translated from GameDrawer's Chrome Diner palette */
   --accent: #14B8A6;          /* FT teal */
   --accent-hover: #0F9488;
   --accent-soft: rgba(20, 184, 166, 0.12);
@@ -33,7 +33,7 @@
   --accent-gunmetal: #3A3A40;
   --accent-stone: #A8A095;
 
-  /* Spacing scale — mirrors DesignKit */
+  /* Spacing scale - mirrors DesignKit */
   --space-xs: 4px;
   --space-s: 8px;
   --space-m: 16px;

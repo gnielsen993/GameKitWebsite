@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# AI / LLM crawlers — explicitly allowed
+# AI / LLM crawlers - explicitly allowed
 User-agent: GPTBot
 Allow: /
 
