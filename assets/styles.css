@@ -841,6 +841,114 @@ textarea:focus-visible {
 }
 
 /* ========================================
+   SHARED SHOWCASE HEADING
+   ======================================== */
+
+.showcase-h2 {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: var(--space-m);
+  color: var(--text);
+}
+
+/* ========================================
+   VIDEO MODE SHOWCASE
+   ======================================== */
+
+.video-showcase {
+  margin-top: 72px;
+  padding-top: 64px;
+  border-top: 1px solid var(--border);
+}
+
+.video-showcase-split {
+  display: grid;
+  grid-template-columns: minmax(240px, 290px) 1fr;
+  align-items: center;
+  gap: clamp(32px, 5vw, 80px);
+}
+
+.video-showcase-phone { width: 100%; }
+
+.video-showcase-text p:not(.feature-num) {
+  font-size: 16px;
+  color: var(--text-dim);
+  line-height: 1.6;
+  max-width: 480px;
+}
+
+@media (max-width: 640px) {
+  .video-showcase-split {
+    grid-template-columns: 1fr;
+  }
+  .video-showcase-phone {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+}
+
+/* ========================================
+   THEME TRIPTYCH
+   ======================================== */
+
+.theme-triptych {
+  margin-top: 72px;
+  padding-top: 64px;
+  border-top: 1px solid var(--border);
+}
+
+.theme-triptych-sub {
+  font-size: 16px;
+  color: var(--text-dim);
+  line-height: 1.6;
+  max-width: 520px;
+  margin-bottom: var(--space-xl);
+}
+
+.theme-phones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-l);
+}
+
+.theme-phone .phone-frame {
+  max-width: 100%;
+}
+
+.theme-phone-label {
+  display: block;
+  text-align: center;
+  margin-top: 14px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+}
+
+@media (max-width: 680px) {
+  .theme-phones {
+    display: flex;
+    overflow-x: auto;
+    gap: var(--space-m);
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: var(--space-s);
+  }
+  .theme-phones::-webkit-scrollbar { display: none; }
+  .theme-phone {
+    flex: 0 0 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .theme-phone { flex: 0 0 160px; }
+}
+
+/* ========================================
    DESIGNKIT DEMO (designkit.html only)
    theme-demo.js writes --dk-* on .dk-demo
    ======================================== */
