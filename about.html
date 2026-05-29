@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>About GameDrawer - A Calm Drawer of Classic Logic Games</title>
-  <meta name="description" content="GameDrawer is a local-first iOS drawer of classic logic games - Minesweeper now, more on the way. No ads, no accounts, no tracking. Built on the shared Lauterstar DesignKit." />
+  <meta name="description" content="GameDrawer is a local-first iOS drawer of six classic logic games - Minesweeper, Merge, Nonogram, Sudoku, FreeCell, and Solitaire. Play any of them while a video runs in Picture-in-Picture. No ads, no accounts, no tracking." />
 
   <link rel="canonical" href="https://gamedrawer.lauterstar.com/about.html" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
@@ -16,7 +16,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:title" content="About GameDrawer - A Calm Drawer of Classic Logic Games" />
-  <meta property="og:description" content="Why GameDrawer exists, what's in v1.0, and what's on the way. Local-first iOS, no ads, no tracking." />
+  <meta property="og:description" content="Why GameDrawer exists, what six games are in it, and what's on the way. Local-first iOS, no ads, no tracking." />
   <meta property="og:url" content="https://gamedrawer.lauterstar.com/about.html" />
   <meta property="og:image" content="https://gamedrawer.lauterstar.com/assets/images/icon-1024.png" />
   <meta property="og:image:alt" content="GameDrawer app icon" />
@@ -46,17 +46,19 @@
       "name": "GameDrawer",
       "operatingSystem": "iOS 17+",
       "applicationCategory": "GameApplication",
-      "description": "Local-first drawer of classic logic games for iPhone. Minesweeper at v1.0, with more games on the way.",
+      "description": "Local-first drawer of six classic logic games for iPhone. Minesweeper, Merge, Nonogram, Sudoku, FreeCell, and Klondike Solitaire. Play any game while a video runs in Picture-in-Picture.",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
       "featureList": [
-        "Minesweeper with three difficulties and first-tap safety",
-        "Tap-to-reveal, long-press to flag",
-        "Stats persistence via SwiftData",
+        "Six games: Minesweeper, Merge, Nonogram, Sudoku, FreeCell, and Klondike Solitaire",
+        "Video Mode: six Picture-in-Picture positions across every game",
+        "First-tap safety in Minesweeper; 6,000 curated Sudoku puzzles",
+        "Stats persistence via SwiftData with per-game and per-difficulty records",
         "34-preset theme catalog across six DesignKit families",
         "Custom palette editor",
-        "JSON stats export and import",
+        "Mid-session save state for all six games",
+        "JSON stats export and import with versioned schema",
         "Optional CloudKit sync via Sign in with Apple",
-        "Haptics and sound effects, fully toggleable",
+        "Haptics and animations, fully toggleable",
         "Zero ads, zero tracking, zero accounts required"
       ]
     }
@@ -129,7 +131,7 @@
     <main id="main-content" class="doc">
       <p class="eyebrow">About &middot; GameDrawer &middot; Vol. I</p>
       <h1>A calm drawer of classic games.</h1>
-      <p class="lede">GameDrawer is a local-first iPhone home for the logic games you grew up with. It exists because most of the modern clones have been ruined - and the original games deserved better than that.</p>
+      <p class="lede">GameDrawer is a local-first iPhone home for six classic logic games. It exists because most of the modern versions of these games have been hollowed out - and the originals deserved better than that.</p>
 
       <p>Open Solitaire, Sudoku, Minesweeper, or a Merge clone on the App Store today and you'll usually meet the same wall: a banner ad, a forced video ad after every level, fake coins to spend, energy meters that lock you out, paywalls in front of basic features, and a tutorial that won't let you skip. GameDrawer inverts every one of those decisions. The first launch drops you straight into a game. Your stats live on your device. There is no account to make, no email to verify, no upsell to dismiss.</p>
 
@@ -140,33 +142,53 @@
 
       <p>GameDrawer was built to remove every one of those failures. Tap to play. No popups. No paywalls. No tracking. No required network connection. A clean cabinet of games that opens fast, runs offline, and lets the actual game be the thing you remember.</p>
 
-      <h2>What's in v1.0</h2>
+      <h2>The six games</h2>
 
       <h3>Minesweeper</h3>
-      <p>The full classic, properly tuned. Three difficulties - Easy 9&times;9 with 10 mines, Medium 16&times;16 with 40, Hard 16&times;30 with 99. <strong>First-tap safety</strong> is guaranteed: your first reveal will never be on a mine. Empty cells flood-fill correctly. Tap to reveal, long-press to flag. A clean win and loss state, both with haptics that you can turn off.</p>
+      <p>The full classic, properly tuned. Three difficulties - Easy 9&times;9/10 mines, Medium 16&times;16/40, Hard 16&times;30/99. <strong>First-tap safety</strong> is guaranteed: your first reveal will never land on a mine. Empty cells flood-fill correctly. Tap to reveal, long-press to flag.</p>
 
-      <h3>Stats persistence</h3>
-      <p>Best times per difficulty, total games played, win percentage, and a full record table. Stored locally via <code>SwiftData</code> so they survive restarts, fresh installs (with backup), and OS updates. JSON export ships in v1.0, with a versioned schema so the file remains readable as the model evolves.</p>
+      <h3>Merge</h3>
+      <p>A 4&times;4 tile-merger in two modes: <strong>Win</strong> (reach 2048 to win) and <strong>Infinite</strong> (keep going as long as you can). Score and personal best tracked per mode.</p>
+
+      <h3>Nonogram</h3>
+      <p>Fill in the squares that match the row and column hints to reveal a picture. Four grid sizes from 5&times;5 to 20&times;20. Mark squares you know are empty so you don't lose track. Every puzzle you solve gets saved as a thumbnail in a gallery with your best clear time.</p>
+
+      <h3>Sudoku</h3>
+      <p>9&times;9 classic logic with 6,000 curated puzzles across Easy, Medium, Hard, and Extreme. Pencil notes, single-step undo, and two modes: <strong>Free</strong> (wrong placements show in red, you keep going) or <strong>Lives</strong> (three mistakes ends the game).</p>
+
+      <h3>FreeCell</h3>
+      <p>8-column tableau, 4 free cells, 4 foundations. Multi-card sequence moves follow the standard supermove rule. Enter any deal number from 1 to 32,000, or pick a difficulty tier at random. Loss detection when no legal moves remain.</p>
+
+      <h3>Klondike Solitaire</h3>
+      <p>7-column tableau with a stock and waste pile. Three difficulty modes: Easy (Draw 1), Medium (Draw 2), Hard (Draw 3). Drag cards and sequences, double-tap to send to the foundation, and auto-complete sweeps the board when the position is clear.</p>
+
+      <h2>Features across every game</h2>
+
+      <h3>Video Mode</h3>
+      <p>Every game supports Picture-in-Picture. Pick one of six positions for your video window - large top, large bottom, or four corner slots - and each game reflows its layout to keep every control clear and tappable.</p>
+
+      <h3>Stats</h3>
+      <p>Best times per difficulty, total games played, win percentage, and a full record table across all six games. Stored locally via <code>SwiftData</code> so they survive restarts and OS updates. JSON export ships with a versioned schema.</p>
 
       <h3>34-preset theme catalog</h3>
-      <p>Every game adapts to the theme you pick. Six DesignKit families - <strong>Classic</strong>, <strong>Sweet</strong>, <strong>Bright</strong>, <strong>Soft</strong>, <strong>Moody</strong>, <strong>Loud</strong> - plus a custom palette editor for picking your own. The default is "Chrome Diner" (cream + teal + diner red + brushed gunmetal), the same palette used on this site.</p>
+      <p>Every game adapts to the theme you pick. Six DesignKit families - <strong>Classic</strong>, <strong>Sweet</strong>, <strong>Bright</strong>, <strong>Soft</strong>, <strong>Moody</strong>, <strong>Loud</strong> - plus a custom palette editor. The default is "Chrome Diner" (cream + teal + diner red + brushed gunmetal), the same palette used on this site.</p>
+
+      <h3>Save state</h3>
+      <p>All six games save your session when you leave. Come back and a resume prompt appears. Decline and you start fresh - nothing is lost permanently.</p>
 
       <h3>Optional iCloud sync</h3>
-      <p>Sign in with Apple unlocks CloudKit sync across your devices via the <code>iCloud.com.lauterstar.gamekit</code> private container. It is off by default. Sign out and your records stay on the device. There is no Lauterstar-owned server in the picture either way - Apple sees encrypted blobs, we see nothing.</p>
+      <p>Sign in with Apple unlocks CloudKit sync across your devices via the <code>iCloud.com.lauterstar.gamekit</code> private container. Off by default. Sign out and your records stay on the device. There is no Lauterstar-owned server in the picture either way.</p>
 
-      <h3>Haptics and sound</h3>
-      <p>Polished feedback on flag, reveal, win, and loss. Fully toggleable in Settings. Quiet by default on Silent.</p>
-
-      <h2>What shipped since v1.0</h2>
-      <p>The drawer has grown from one game to six. v1.1 added <strong>Nonogram</strong> and the drawer-style home screen. v1.2 brought <strong>Merge</strong>, <strong>Sudoku</strong>, and Video Mode across all games. v1.3 adds <strong>FreeCell</strong> and <strong>Klondike Solitaire</strong>, a new 3-column icon grid home screen, and mid-session save state for all five games.</p>
+      <h3>Haptics and animations</h3>
+      <p>Polished feedback on flag, reveal, win, and loss across every game. All toggleable in Settings. Quiet by default on Silent. Respects Reduce Motion.</p>
 
       <h2>On the way</h2>
-      <p>More cabinets are in the queue, in rough order: <strong>Word Grid</strong>, <strong>Flow</strong>, <strong>Pattern Memory</strong>, <strong>Chess puzzles</strong>. Each one ships when it can stand on its own.</p>
+      <p><strong>Word Grid</strong> is next. After that: <strong>Flow</strong>, <strong>Pattern Memory</strong>, and <strong>Chess puzzles</strong>. Each one ships when it can stand on its own.</p>
 
       <h2>Who GameDrawer is for</h2>
       <ul>
         <li><strong>People who used to play Minesweeper or Solitaire and stopped</strong> because the modern versions are unbearable.</li>
-        <li><strong>People who care about a clean look.</strong> 34 themes, custom palettes, the same Balanced-Luxury identity used across the Lauterstar suite.</li>
+        <li><strong>People who care about a clean look.</strong> 34 themes, custom palettes, the same design identity across the Lauterstar catalog.</li>
         <li><strong>Privacy-minded players.</strong> No accounts, no analytics, no servers we own. Optional iCloud is end-to-end through Apple.</li>
         <li><strong>iPhone owners on iOS 17 or later</strong> who want games that respect their time and their battery.</li>
       </ul>
@@ -182,7 +204,7 @@
       <h2>Frequently asked questions</h2>
 
       <h3>Is GameDrawer really free?</h3>
-      <p>Yes. Version 1.0 is free with no in-app purchases, no subscriptions, and no ads. If a paid option ever lands, it would be a one-time purchase for the full game suite, paid theme packs, or a tip jar - <em>never</em> ads, coins, or aggressive subscriptions.</p>
+      <p>Yes. The app is free with no in-app purchases, no subscriptions, and no ads. If a paid option ever lands, it would be a one-time purchase for the full game suite, paid theme packs, or a tip jar - <em>never</em> ads, coins, or aggressive subscriptions.</p>
 
       <h3>Will you add ads later?</h3>
       <p>No. That's a permanent constraint, not a launch promise.</p>
