@@ -4,7 +4,7 @@
 window.SITE_CONFIG = Object.freeze({
   appName: "GameDrawer",
   displayName: "GameDrawer",
-  appVersion: "1.4",
+  appVersion: "1.5",
   appStoreUrl: "https://apps.apple.com/us/app/gamedrawer-classic-games/id6765536382",
   supportEmail: "support@lauterstar.com",
   copyrightHolder: "Lauterstar",
