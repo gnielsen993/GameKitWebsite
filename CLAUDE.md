@@ -61,7 +61,7 @@ GameDrawer's visual identity echoes the shared Lauterstar DesignKit: warm cream 
 
 ## Image Assets
 
-iOS screenshots ship under 500KB. Anything over that target gets resized and converted: `sips --resampleWidth 720 -s format jpeg -s formatOptions 80 INPUT.png --out OUTPUT.jpg`. Originals stay in `assets/images/originals/` (gitignored). Carousel and below-the-fold use `loading="lazy"`.
+iOS screenshots are captured on the iPhone 17 Pro Max simulator (1320x2868, the App Store Connect 6.9" slot) so one capture serves both ASC and the site. They ship under 500KB. Anything over that target gets resized and converted: `sips --resampleWidth 720 -s format jpeg -s formatOptions 80 INPUT.png --out OUTPUT.jpg`. Originals stay in `assets/images/originals/` (gitignored). Carousel and below-the-fold use `loading="lazy"`.
 
 ## Release Log
 

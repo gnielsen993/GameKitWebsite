@@ -20,7 +20,7 @@ A local-first iOS drawer of classic logic games. Minesweeper at v1.0, with more 
 ## What GameDrawer does
 - Minesweeper: three difficulties (Easy 9x9 / Medium 16x16 / Hard 16x30), first-tap safety, flood-fill auto-reveal.
 - Local-first stats: best times, win percentages, and game records stored on-device via SwiftData.
-- No ads, ever: no banner ads, no forced video ads, no fake currency, no subscription pestering.
+- No ads: no banner ads, no forced video ads, no fake currency, no subscription pestering.
 - 34 theme presets across six DesignKit families (Classic, Sweet, Bright, Soft, Moody, Loud) plus a custom palette editor.
 - Stats: per-difficulty bests, lifetime totals, full record table, JSON export and re-import.
 - Optional iCloud sync via Sign in with Apple - off by default.

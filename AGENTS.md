@@ -23,7 +23,7 @@ Part of the Lauterstar app ecosystem alongside DesignKit, HabitTracker, Stack, a
 
 ## Image Assets
 
-- iOS screenshots in `assets/images/screenshots/` use JPEG (q80, ~720px wide) when above ~500KB. Originals (uncompressed PNG) live in `assets/images/originals/` and are gitignored.
+- iOS screenshots are captured on the iPhone 17 Pro Max simulator (1320x2868, the ASC 6.9" slot). Files in `assets/images/screenshots/` use JPEG (q80, ~720px wide) when above ~500KB. Originals (uncompressed PNG) live in `assets/images/originals/` and are gitignored.
 - Target: every image under 500KB. Below-the-fold uses `loading="lazy"`.
 
 ## Design System
