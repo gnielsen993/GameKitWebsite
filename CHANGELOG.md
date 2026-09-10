@@ -1,3 +1,10 @@
+# Branding refresh - 2026-09-10
+
+- Replaced the old stacked-box icon with the approved Video drawer artwork from the iOS app across navigation, browser icons, social previews and the press download.
+- Added small browser and navigation assets, refreshed image URLs for cached previews, and added the current icon to app search metadata.
+- Removed the retired promo render and added current name and artwork guidance to the press kit.
+- Source: GameKit assets/icon/AI_PROVENANCE.md, Revision 4 (9A.2 Video drawer).
+
 # Version 1.6 release labels - 2026-09-10
 
 - Marked 1.6 as the latest update across pages, site config, search and social metadata, structured data and llms.txt for the coordinated release.
