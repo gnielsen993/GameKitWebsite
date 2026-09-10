@@ -40,10 +40,10 @@
     }
 
     prevBtn.addEventListener("click", () => {
-      track.scrollBy({ left: -pageWidth(), behavior: "smooth" });
+      track.scrollBy({ left: -pageWidth(), behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
     });
     nextBtn.addEventListener("click", () => {
-      track.scrollBy({ left: pageWidth(), behavior: "smooth" });
+      track.scrollBy({ left: pageWidth(), behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
     });
     track.addEventListener("scroll", updateDisabled, { passive: true });
     window.addEventListener("resize", updateDisabled);

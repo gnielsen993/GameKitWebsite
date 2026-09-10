@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>GameDrawer - Classic logic games. Play alongside your video. No ads.</title>
-  <meta name="description" content="A local-first iOS drawer of classic logic, word, and arcade games - Minesweeper, Merge, Nonogram, Sudoku, FreeCell, Solitaire, Five Letter, Word Grid, Stack, and Snake. Play any game while a video runs in Picture-in-Picture. No ads, no accounts, no tracking." />
+  <title>GameDrawer - Offline Sudoku, Solitaire &amp; Puzzle Games</title>
+  <meta name="description" content="Play free offline Sudoku, Solitaire, Minesweeper and more on iPhone and iPad. No ads. Coming in 1.6: Math Crossword and step-by-step puzzle help." />
 
   <link rel="canonical" href="https://gamedrawer.lauterstar.com/" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
@@ -15,15 +15,15 @@
   <meta property="og:site_name" content="GameDrawer" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:title" content="GameDrawer - Classic logic games. Play alongside your video. No ads." />
-  <meta property="og:description" content="Ten classic logic, word, and arcade games - Minesweeper, Merge, Nonogram, Sudoku, FreeCell, Solitaire, Five Letter, Word Grid, Stack, Snake. Play any of them while a video runs in Picture-in-Picture. No ads, no accounts, no tracking." />
+  <meta property="og:title" content="GameDrawer - Offline Sudoku, Solitaire &amp; Puzzle Games" />
+  <meta property="og:description" content="Play free offline Sudoku, Solitaire, Minesweeper and more on iPhone and iPad. No ads. Coming in 1.6: Math Crossword and step-by-step puzzle help." />
   <meta property="og:url" content="https://gamedrawer.lauterstar.com/" />
   <meta property="og:image" content="https://gamedrawer.lauterstar.com/assets/images/icon-1024.png" />
   <meta property="og:image:alt" content="GameDrawer app icon" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="GameDrawer" />
-  <meta name="twitter:description" content="Ten games. Play alongside your video. No ads, no coins, no noise." />
+  <meta name="twitter:title" content="GameDrawer - Offline Sudoku, Solitaire &amp; Puzzle Games" />
+  <meta name="twitter:description" content="Play free offline Sudoku, Solitaire, Minesweeper and more on iPhone and iPad. No ads. Coming in 1.6: Math Crossword and step-by-step puzzle help." />
   <meta name="twitter:image" content="https://gamedrawer.lauterstar.com/assets/images/icon-1024.png" />
 
   <link rel="icon" href="assets/images/icon-1024.png" />
@@ -34,34 +34,46 @@
   <script defer src="assets/app.js"></script>
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://gamedrawer.lauterstar.com/#org",
-        "name": "Lauterstar",
-        "url": "https://lauterstar.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://gamedrawer.lauterstar.com/#org",
+      "name": "Lauterstar",
+      "url": "https://lauterstar.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gamedrawer.lauterstar.com/#site",
+      "url": "https://gamedrawer.lauterstar.com/",
+      "name": "GameDrawer",
+      "publisher": {
+        "@id": "https://gamedrawer.lauterstar.com/#org"
       },
-      {
-        "@type": "WebSite",
-        "@id": "https://gamedrawer.lauterstar.com/#site",
-        "url": "https://gamedrawer.lauterstar.com/",
-        "name": "GameDrawer",
-        "publisher": { "@id": "https://gamedrawer.lauterstar.com/#org" },
-        "inLanguage": "en-US"
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "MobileApplication",
+      "name": "GameDrawer",
+      "operatingSystem": "iOS 17+",
+      "applicationCategory": "GameApplication",
+      "description": "Ten free offline logic, card, word and arcade games for iPhone and iPad. No ads or required account. Coming in 1.6: Math Crossword and step-by-step puzzle help.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
       },
-      {
-        "@type": "MobileApplication",
-        "name": "GameDrawer",
-        "operatingSystem": "iOS 17+",
-        "applicationCategory": "GameApplication",
-        "description": "Local-first drawer of classic logic, word, and arcade games - Minesweeper, Merge, Nonogram, Sudoku, FreeCell, Solitaire, Five Letter, Word Grid, Stack, Snake. Play any game while a video runs in Picture-in-Picture. No ads, no accounts, no tracking.",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-        "publisher": { "@id": "https://gamedrawer.lauterstar.com/#org" }
-      }
-    ]
-  }
+      "publisher": {
+        "@id": "https://gamedrawer.lauterstar.com/#org"
+      },
+      "softwareVersion": "1.5",
+      "url": "https://gamedrawer.lauterstar.com/",
+      "downloadUrl": "https://apps.apple.com/us/app/gamedrawer-classic-games/id6765536382",
+      "releaseNotes": "https://gamedrawer.lauterstar.com/updates.html"
+    }
+  ]
+}
   </script>
 </head>
 
@@ -72,9 +84,9 @@
 
     <header class="nav">
       <a class="brand" href="index.html" aria-label="GameDrawer home">
-        <img class="brand-logo" src="assets/images/icon-1024.png" alt="" aria-hidden="true" />
+        <img class="brand-logo" src="assets/images/icon-1024.png" alt="" aria-hidden="true" width="1024" height="1024" />
         <span class="brand-name" data-cfg="displayName">GameDrawer</span>
-        <span class="brand-meta">Vol. I &middot; v<span data-cfg="appVersion">1.0</span></span>
+        <span class="brand-meta">Vol. I &middot; v<span data-cfg="appVersion">1.5</span></span>
       </a>
 
       <nav class="nav-links" aria-label="Primary">
@@ -93,14 +105,15 @@
         <div class="hero-split">
           <div class="hero-text">
             <h1 class="h1">
-              Play games while<br />
-              watching a video.<br />
-              No ads.
+              Your favorite games.<br />
+              No ad breaks.
             </h1>
 
             <p class="sub">
-              GameDrawer is a drawer of classic logic, word, and arcade games for iPhone - Minesweeper, Merge, Nonogram, Sudoku, FreeCell, Solitaire, Five Letter, Word Grid, Stack, and Snake. Every game supports Picture-in-Picture Video Mode: pick one of six positions for your video window and each layout reflows to stay clear. Local-first, no accounts, no tracking, no fake currency.
+              Sudoku, Solitaire, Minesweeper and more, together on iPhone and iPad. Play offline, keep your video going, and take a break without ads, coins or a subscription.
             </p>
+
+            <p class="release-note"><a href="updates.html#v1-6">Coming in 1.6: Math Crossword and a little help when you need it.</a></p>
 
             <div class="cta-row">
               <a class="btn appstore" href="https://apps.apple.com/us/app/gamedrawer-classic-games/id6765536382" target="_blank" rel="noopener" data-cfg="appStoreUrl" aria-label="Download GameDrawer on the App Store">
@@ -112,16 +125,29 @@
 
             <p class="small">
               Questions? Email
-              <a data-cfg="supportEmail" href="mailto:">support</a>.
+              <a data-cfg="supportEmail" href="mailto:support@lauterstar.com">support</a>.
             </p>
           </div>
 
           <div class="hero-phone">
             <div class="phone-frame">
-              <img src="assets/images/screenshots/home-game-drawer.jpg" alt="GameDrawer home screen showing ten game tiles - Minesweeper, Merge, Nonogram, Sudoku, Solitaire, FreeCell, Five Letter, Word Grid, Stack, and Snake - plus an Upcoming tile, on the Classic theme" />
+              <img fetchpriority="high" src="assets/images/screenshots/home-game-drawer.jpg" alt="GameDrawer home screen showing ten game tiles - Minesweeper, Merge, Nonogram, Sudoku, Solitaire, FreeCell, Five Letter, Word Grid, Stack, and Snake - plus an Upcoming tile, on the Classic theme" width="720" height="1564" />
             </div>
           </div>
         </div>
+
+        <section class="release-preview" aria-labelledby="release-heading">
+          <div>
+            <h2 id="release-heading">Coming in 1.6: meet Math Crossword.</h2>
+            <p>One new game brings the drawer to eleven. Fill the missing numbers so every crossing equation works. Choose from three difficulties, drag numbers into place, undo a move, and pick up your saved puzzle later.</p>
+            <p>Get a useful next step in supported puzzles. Keep solving Sudoku and Nonogram in Practice after your last life. Video Mode layouts make more room for the board and its controls.</p>
+            <a class="btn ghost" href="updates.html#v1-6">See what is coming in 1.6</a>
+          </div>
+          <figure>
+            <div class="phone-frame"><img src="assets/images/screenshots/math-crossword-1-6.jpg" alt="Math Crossword in the upcoming GameDrawer 1.6 update, with crossing equations and a number bank" loading="lazy" width="720" height="1565" /></div>
+            <figcaption>Preview of version 1.6</figcaption>
+          </figure>
+        </section>
 
         <div id="features" class="grid" role="region" aria-labelledby="features-heading">
           <h2 id="features-heading" class="visually-hidden">App Features</h2>
@@ -135,7 +161,7 @@
               </svg>
             </span>
             <h3>Play while your video runs.</h3>
-            <p>Every game supports Picture-in-Picture. Choose one of six positions for your video window - large top, large bottom, or four corner slots - and each layout reflows to keep every control clear and tappable. No other puzzle suite does this.</p>
+            <p>Every game supports Picture-in-Picture. Choose one of six positions for your video window - large top, large bottom, or four corner slots - and each layout reflows to keep every control clear and tappable. Picture-in-Picture requires a video app that supports it.</p>
           </article>
 
           <article class="feature">
@@ -146,7 +172,7 @@
                 <path d="M9 9h.01M15 9h.01M9 15h.01M15 15h.01" />
               </svg>
             </span>
-            <h3>Minesweeper, Merge, Nonogram, Sudoku, FreeCell, Solitaire, Five Letter, Word Grid, Stack, Snake.</h3>
+            <h3>Find your next favorite.</h3>
             <p>Minesweeper across three difficulties, Merge with 2048 and Infinite modes, Nonogram from 5&times;5 up to 20&times;20, Sudoku with 6,000 curated puzzles, FreeCell with deal-number entry and supermove rules, Klondike Solitaire with draw 1, 2, or 3, Five Letter with daily and unlimited word guessing, Word Grid for tracing words on a 4&times;4 board, Stack for dropping blocks on a 3D tower, and Snake in wrap or walls mode. Each one tuned, none of them loud.</p>
           </article>
 
@@ -159,7 +185,7 @@
               </svg>
             </span>
             <h3>Your stats stay yours.</h3>
-            <p>Best times, win percentages, and game records live on-device via SwiftData. Survives restarts, fresh installs, and OS updates. No servers we own.</p>
+            <p>Best times, wins and game records stay on your device. Export a backup or turn on optional iCloud sync to carry your stats to another device. Deleting the app removes local-only records.</p>
           </article>
 
           <article class="feature">
@@ -170,8 +196,8 @@
                 <path d="M5 5l14 14" />
               </svg>
             </span>
-            <h3>No coins. No energy. No popups.</h3>
-            <p>No banner ads, no forced video ads, no fake currency, no subscription pestering, no required onboarding. Open the app, play.</p>
+            <h3>No coins. No energy timers.</h3>
+            <p>No banner ads, no forced video ads, no fake currency, no subscription pestering, no required account. Open the app, play.</p>
           </article>
 
           <article class="feature">
@@ -185,7 +211,7 @@
                 <path d="M12 2a10 10 0 1 0 0 20c1 0 2-1 2-2v-1a2 2 0 0 1 2-2h2a4 4 0 0 0 4-4 10 10 0 0 0-10-11z" />
               </svg>
             </span>
-            <h3>34 theme presets.</h3>
+            <h3>A theme for your kind of break.</h3>
             <p>Six DesignKit families (Classic, Sweet, Bright, Soft, Moody, Loud) plus a custom palette editor. Every game adapts to the look you pick.</p>
           </article>
 
@@ -209,7 +235,7 @@
               </svg>
             </span>
             <h3>Sync only if you ask.</h3>
-            <p>Sign in with Apple unlocks CloudKit sync across your devices. Off by default. Sign out and your records stay on the device.</p>
+            <p>Sign in with Apple enables CloudKit sync across your devices. Off by default. Sign out and your records stay on the device.</p>
           </article>
         </div>
 
@@ -217,37 +243,37 @@
           <div class="video-showcase-split">
             <div class="video-showcase-phone">
               <div class="phone-frame">
-                <img src="assets/images/screenshots/video-mode-minesweeper-expert.jpg" alt="Minesweeper mid-game with a large video window above the board, showing Picture-in-Picture Video Mode" loading="lazy" />
+                <img src="assets/images/screenshots/video-mode-minesweeper-expert.jpg" alt="Minesweeper mid-game with a large video window above the board, showing Picture-in-Picture Video Mode" loading="lazy" width="720" height="1564" />
               </div>
             </div>
             <div class="video-showcase-text">
               <p class="feature-num">01 / Video Mode</p>
               <h2 class="showcase-h2">Play while your video runs.</h2>
-              <p>Pick one of six positions for your video window - large top, large bottom, or four corner slots. Each game reflows its layout to keep every control clear and tappable. No other puzzle suite does this.</p>
+              <p>Pick one of six positions for your video window - large top, large bottom, or four corner slots. Each game reflows its layout to keep every control clear and tappable. Picture-in-Picture requires a video app that supports it.</p>
             </div>
           </div>
         </div>
 
         <div class="theme-triptych">
           <p class="feature-num">05 / Themes</p>
-          <h2 class="showcase-h2">34 presets. Same game, different feel.</h2>
+          <h2 class="showcase-h2">Same game, different feel.</h2>
           <p class="theme-triptych-sub">Six theme families - Classic, Sweet, Bright, Soft, Moody, Loud - plus a custom palette editor. Every game adapts to the look you pick.</p>
           <div class="theme-phones">
             <div class="theme-phone">
               <div class="phone-frame">
-                <img src="assets/images/screenshots/theme-freecell-classic-green.jpg" alt="FreeCell on the Classic green felt theme" loading="lazy" />
+                <img src="assets/images/screenshots/theme-freecell-classic-green.jpg" alt="FreeCell on the Classic green felt theme" loading="lazy" width="720" height="1564" />
               </div>
               <span class="theme-phone-label">Classic</span>
             </div>
             <div class="theme-phone">
               <div class="phone-frame">
-                <img src="assets/images/screenshots/theme-freecell-dark.jpg" alt="FreeCell on a dark Moody theme" loading="lazy" />
+                <img src="assets/images/screenshots/theme-freecell-dark.jpg" alt="FreeCell on a dark Moody theme" loading="lazy" width="720" height="1564" />
               </div>
               <span class="theme-phone-label">Moody</span>
             </div>
             <div class="theme-phone">
               <div class="phone-frame">
-                <img src="assets/images/screenshots/theme-freecell-sweet-pink.jpg" alt="FreeCell on the Sweet pink theme" loading="lazy" />
+                <img src="assets/images/screenshots/theme-freecell-sweet-pink.jpg" alt="FreeCell on the Sweet pink theme" loading="lazy" width="720" height="1564" />
               </div>
               <span class="theme-phone-label">Sweet</span>
             </div>
@@ -267,15 +293,15 @@
             <path d="M9 6l6 6-6 6" />
           </svg>
         </button>
-        <div class="carousel-track">
-          <img src="assets/images/screenshots/home-game-drawer.jpg" alt="The Drawer home screen showing all ten games plus an Upcoming tile on the Classic theme" loading="lazy" />
-          <img src="assets/images/screenshots/gameplay-minesweeper-medium.jpg" alt="Minesweeper Medium mid-game with flagged mines and revealed numbers on the Classic theme" loading="lazy" />
-          <img src="assets/images/screenshots/gameplay-merge.jpg" alt="Merge mid-game with score 1964 and tiles from 2 up to 256 on the Classic theme" loading="lazy" />
-          <img src="assets/images/screenshots/gameplay-nonogram-large.jpg" alt="Nonogram 20 by 20 bunny puzzle mid-solve on the Classic theme" loading="lazy" />
-          <img src="assets/images/screenshots/gameplay-sudoku-hard.jpg" alt="Sudoku Hard mid-game with value and notes keyboard visible on the Classic theme" loading="lazy" />
-          <img src="assets/images/screenshots/gameplay-solitaire-medium.jpg" alt="Klondike Solitaire mid-game on the Classic green felt theme" loading="lazy" />
-          <img src="assets/images/screenshots/gameplay-freecell-medium.jpg" alt="FreeCell mid-game with free cells and foundation piles on the Classic green felt theme" loading="lazy" />
-          <img src="assets/images/screenshots/stats-screen.jpg" alt="Stats screen showing best times and win rates for Minesweeper, Merge, Nonogram, and Sudoku" loading="lazy" />
+        <div class="carousel-track" tabindex="0" role="region" aria-label="Game screenshots, scroll for more">
+          <img src="assets/images/screenshots/home-game-drawer.jpg" alt="The Drawer home screen showing all ten games plus an Upcoming tile on the Classic theme" loading="lazy" width="720" height="1564" />
+          <img src="assets/images/screenshots/gameplay-minesweeper-medium.jpg" alt="Minesweeper Medium mid-game with flagged mines and revealed numbers on the Classic theme" loading="lazy" width="720" height="1565" />
+          <img src="assets/images/screenshots/gameplay-merge.jpg" alt="Merge mid-game with score 1964 and tiles from 2 up to 256 on the Classic theme" loading="lazy" width="720" height="1565" />
+          <img src="assets/images/screenshots/gameplay-nonogram-large.jpg" alt="Nonogram 20 by 20 bunny puzzle mid-solve on the Classic theme" loading="lazy" width="720" height="1565" />
+          <img src="assets/images/screenshots/gameplay-sudoku-hard.jpg" alt="Sudoku Hard mid-game with value and notes keyboard visible on the Classic theme" loading="lazy" width="720" height="1565" />
+          <img src="assets/images/screenshots/gameplay-solitaire-medium.jpg" alt="Klondike Solitaire mid-game on the Classic green felt theme" loading="lazy" width="720" height="1565" />
+          <img src="assets/images/screenshots/gameplay-freecell-medium.jpg" alt="FreeCell mid-game with free cells and foundation piles on the Classic green felt theme" loading="lazy" width="720" height="1565" />
+          <img src="assets/images/screenshots/stats-screen.jpg" alt="Stats screen showing best times and win rates for Minesweeper, Merge, Nonogram, and Sudoku" loading="lazy" width="720" height="1564" />
         </div>
       </div>
     </main>

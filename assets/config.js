@@ -5,12 +5,13 @@ window.SITE_CONFIG = Object.freeze({
   appName: "GameDrawer",
   displayName: "GameDrawer",
   appVersion: "1.5",
+  upcomingVersion: "1.6",
   appStoreUrl: "https://apps.apple.com/us/app/gamedrawer-classic-games/id6765536382",
   supportEmail: "support@lauterstar.com",
   copyrightHolder: "Lauterstar",
   copyrightYear: 2026,
   bundleId: "com.lauterstar.gamekit",
-  ecosystem: ["DesignKit", "HabitTracker", "Stack", "PantryPlanner", "GameDrawer"]
+  ecosystem: ["DesignKit", "HabitTracker", "Stack", "GameDrawer"]
 });
 
 document.addEventListener("DOMContentLoaded", () => {

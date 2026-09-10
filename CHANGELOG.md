@@ -1,3 +1,9 @@
+# Website refresh - 2026-09-10
+
+- Added a clearly labeled 1.6 preview: Math Crossword, hints, Practice, saved undo and Video Mode fixes. App Store version stays 1.5 until release. Source: GameKit Docs/releases/v1.6.md and Marketing/AppStore-1.6/metadata.
+- Updated page titles, search descriptions, social metadata, sitemap and llms.txt. Removed unsupported exclusivity and reinstall claims.
+- Added a Math Crossword preview screenshot and working press downloads. Improved narrow-screen navigation, theme contrast, keyboard gallery access and Reduce Motion.
+
 # Changelog
 
 Website changes. Ordered newest first. iOS app release notes are in [updates.html](updates.html).
