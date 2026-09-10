@@ -3,12 +3,12 @@
 Free offline logic, card, word and arcade games for iPhone and iPad, iOS 17+. No ads, coins, energy timers or required account.
 
 ## Release status
-- Current App Store release: 1.5, with ten games.
-- Next update: 1.6, not yet marked released. Adds Math Crossword as the eleventh game, puzzle hints, Practice after the last life in Sudoku and Nonogram, 35 themes, improved Video Mode layouts and saved Solitaire undo.
+- Current App Store release: 1.6, with eleven games.
+- Latest update: 1.6. Adds Math Crossword as the eleventh game, puzzle hints, Practice after the last life in Sudoku and Nonogram, 35 themes, improved Video Mode layouts and saved Solitaire undo.
 - App Store: https://apps.apple.com/us/app/gamedrawer-classic-games/id6765536382
 
-## Games in 1.5
-Minesweeper, Merge (2048 and Infinite), Nonogram, Sudoku, FreeCell, Klondike Solitaire, Five Letter, Word Grid, Stack and Snake.
+## Games in 1.6
+Math Crossword, Minesweeper, Merge (2048 and Infinite), Nonogram, Sudoku, FreeCell, Klondike Solitaire, Five Letter, Word Grid, Stack and Snake.
 
 ## Features
 - Every game works offline. No account required to play.

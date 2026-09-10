@@ -1,3 +1,8 @@
+# Version 1.6 release labels - 2026-09-10
+
+- Marked 1.6 as the latest update across pages, site config, search and social metadata, structured data and llms.txt for the coordinated release.
+- Updated the roster to eleven games and replaced the home screenshot with the 1.6 capture. Earlier release entries stay in the history.
+
 # Website refresh - 2026-09-10
 
 - Added a clearly labeled 1.6 preview: Math Crossword, hints, Practice, saved undo and Video Mode fixes. App Store version stays 1.5 until release. Source: GameKit Docs/releases/v1.6.md and Marketing/AppStore-1.6/metadata.
