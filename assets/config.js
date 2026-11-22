@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (val == null) return;
     if (el.tagName === "A" && (key.endsWith("Url") || key === "supportEmail")) {
       el.href = key === "supportEmail" ? `mailto:${val}` : val;
-      if (!el.textContent.trim()) el.textContent = val;
+      if (!el.textContent.trim() && !el.children.length) el.textContent = val;
     } else {
       el.textContent = val;
     }
