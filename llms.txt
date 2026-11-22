@@ -13,6 +13,7 @@ Math Crossword, Minesweeper, Merge (2048 and Infinite), Nonogram, Sudoku, FreeCe
 ## Features
 - Every game works offline. No account required to play.
 - Video Mode reserves one of six positions for Picture-in-Picture. Requires a video app that supports Picture-in-Picture.
+- The home page has a playable Video Mode preview: a small Minesweeper board that moves around the chosen video position.
 - Sudoku includes 6,000 puzzles across four difficulties. Minesweeper has first-tap safety.
 - Stats stay on-device, with JSON backup export/import and optional iCloud sync via Sign in with Apple. Deleting the app removes local-only data.
 - Themes and custom colors, with controls for sound, haptics and animations.
@@ -24,6 +25,7 @@ Math Crossword, Minesweeper, Merge (2048 and Infinite), Nonogram, Sudoku, FreeCe
 - Press: https://gamedrawer.lauterstar.com/press.html
 - Support: https://gamedrawer.lauterstar.com/support.html
 - Privacy: https://gamedrawer.lauterstar.com/privacy.html
+- Accessibility: https://gamedrawer.lauterstar.com/accessibility.html
 - Terms: https://gamedrawer.lauterstar.com/terms.html
 
 ## Contact

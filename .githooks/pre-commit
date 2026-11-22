@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+if ! git diff --quiet -- sitemap.xml; then
+  echo "Stage your sitemap edits before committing." >&2
+  exit 1
+fi
+python3 scripts/sitemap.py --staged
+git add -- sitemap.xml
