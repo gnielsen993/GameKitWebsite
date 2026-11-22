@@ -1,3 +1,13 @@
+# Black redesign and Video Mode preview - 2026-11-21
+
+- Rebuilt the site in deep black, warm white and stone, matching the Stack website. The home page opens on a black masthead with the Drawer screen, and dark mode is now pure black.
+- Added a playable Video Mode preview to the home page: pick one of six video positions and play a small Minesweeper board while the controls move out of the way. Without JavaScript the real app screenshot shows instead.
+- Replaced the feature card grid and carousel with real screenshot details, a screenshot strip, a full-screen viewer, a theme preview and common questions.
+- Added an Accessibility page. New shared header and footer on every page, with teal current-page underlines and keyboard focus rings. Download buttons now use the App Store badge.
+- Added favicon.ico, versioned asset links, a Git-dated sitemap with a CI check, and a public deployment script with security headers and a Content Security Policy. The 404 page lost its inline styles and now works from nested paths.
+- Corrected the About page: GameDrawer runs on iPhone and iPad. Removed the claim that the site uses the Chrome Diner palette.
+- Added DESIGN.md and README.md, and updated CLAUDE.md and AGENTS.md. Layouts in the preview follow GameKit DESIGN.md section 7.
+
 # Branding refresh - 2026-09-10
 
 - Replaced the old stacked-box icon with the approved Video drawer artwork from the iOS app across navigation, browser icons, social previews and the press download.
