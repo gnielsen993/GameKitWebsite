@@ -112,6 +112,7 @@ Rules for this component:
 - **Do** use real, unchanged app screenshots as proof. Crop and scale only.
 - **Do** keep copy short and factual. Follow `STYLE.md`.
 - **Do** keep focus rings, alt text, 375px layouts and reduced motion working.
+- **Do** keep the home page `<title>` to the app name alone. The descriptive title lives in `og:title`, `twitter:title` and the WebSite `alternateName`.
 - **Do** bump the `?v=` asset version on every page when a script or the stylesheet changes.
 - **Do not** tint, recolor or redraw screenshots.
 - **Do not** invent ratings, testimonials, prices or promises about future features.

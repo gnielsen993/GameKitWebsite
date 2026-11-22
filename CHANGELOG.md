@@ -6,6 +6,7 @@
 - Added an Accessibility page. New shared header and footer on every page, with teal current-page underlines and keyboard focus rings. Download buttons now use the App Store badge.
 - Added favicon.ico, versioned asset links, a Git-dated sitemap with a CI check, and a public deployment script with security headers and a Content Security Policy. The 404 page lost its inline styles and now works from nested paths.
 - Corrected the About page: GameDrawer runs on iPhone and iPad. Removed the claim that the site uses the Chrome Diner palette.
+- Shortened the home page tab to GameDrawer. The longer search title stays in the social tags and site structured data.
 - Added DESIGN.md and README.md, and updated CLAUDE.md and AGENTS.md. Layouts in the preview follow GameKit DESIGN.md section 7.
 
 # Branding refresh - 2026-09-10
